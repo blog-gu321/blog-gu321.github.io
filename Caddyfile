@@ -1,0 +1,48 @@
+https://blog.gu321.com {
+    
+    tls {
+        dns dnspod
+    }
+    gzip
+    header / -Server
+    header / -Vary
+    header /-S/ {
+          Cache-Control "public, max-age=99936000"
+    }
+    header /-/S/ {
+          Cache-Control "public, max-age=99936000"
+    }
+    header / Cache-Control "max-age=1"
+    log  / /mnt/data/caddy/log/blog.gu321.com.log "{status} {size} {when_unix} {remote} {method} {uri_escaped} \"{>Referer}\" \"{>User-Agent}\""
+    errors /mnt/data/caddy/log/blog.gu321.com.error.log 
+
+    rewrite {
+        if {file} not_ends_with .png 
+        if {file} not_ends_with .svg
+        if {file} not_ends_with .ico 
+        if {file} not_ends_with .txt
+        if {file} not_ends_with .md 
+        if {file} not_ends_with .toml
+        if {file} not_ends_with .json
+        if {file} not_ends_with .html 
+        if {file} not_ends_with .xml 
+        if {path} not_starts_with /-/S/
+        if {path} not_starts_with /-S/
+        to /
+    }
+    expires {
+        match .md$ 1m 
+        match .ico$ 3y 
+        match .png$ 3y 
+    }
+    root /home/u88/blog.gu321.com 
+
+}
+http://blog.gu321.com {
+
+    redir 302 {
+        https://blog.gu321.com{uri}
+    }
+}
+
+
