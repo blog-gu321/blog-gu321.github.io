@@ -26,7 +26,6 @@ https://blog.gu321.com {
         if {file} not_ends_with .json
         if {file} not_ends_with .html 
         if {file} not_ends_with .xml 
-        if {path} not_starts_with /-/
         if {path} not_starts_with /-/S/
         if {path} not_starts_with /-S/
         to /
