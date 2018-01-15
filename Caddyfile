@@ -6,11 +6,16 @@ https://blog.gu321.com {
     gzip
     header / -Server
     header / -Vary
+    header /-S/ {
+          Cache-Control "public, max-age=99936000"
+    }
+    header /-/S/ {
+          Cache-Control "public, max-age=99936000"
+    }
     header / Cache-Control "max-age=1"
     log  / /mnt/data/caddy/log/blog.gu321.com.log "{status} {size} {when_unix} {remote} {method} {uri_escaped} \"{>Referer}\" \"{>User-Agent}\""
     errors /mnt/data/caddy/log/blog.gu321.com.error.log 
 
-    root /home/u88/blog.gu321.com 
     rewrite {
         if {file} not_ends_with .png 
         if {file} not_ends_with .svg
@@ -21,24 +26,17 @@ https://blog.gu321.com {
         if {file} not_ends_with .json
         if {file} not_ends_with .html 
         if {file} not_ends_with .xml 
-        if {file} not_starts_with /-/
-        if {file} not_starts_with /-/S/
-        if {file} not_starts_with /-S/
+        if {path} not_starts_with /-/
+        if {path} not_starts_with /-/S/
+        if {path} not_starts_with /-S/
         to /
     }
-
-	expires {
-		match .css$ 10y
-		match .js$ 10y
-		match .json$ 10y
-		match .ico$ 10y
-		match .ttf$ 10y
-		match .svg$ 10y
-		match .woff$ 10y
-		match .eot$ 10y
-		match .md$ 1s
-		match .toml$ 1s
-	}
+    expires {
+        match .md$ 1m 
+        match .ico$ 3y 
+        match .png$ 3y 
+    }
+    root /home/u88/blog.gu321.com 
 
 }
 http://blog.gu321.com {
