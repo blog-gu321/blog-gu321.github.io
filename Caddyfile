@@ -23,12 +23,15 @@ https://blog.gu321.com {
         if {file} not_ends_with .json
         if {file} not_ends_with .xml 
         if {file} not_ends_with .txt
+        if {file} not_ends_with .toml
         if {path} not_starts_with /-/S/
         if {path} not_starts_with /-S/
+        if {path} not_starts_with /-/md/
         to /
     }
     expires {
         match .md$ 1m 
+        match .toml$ 10m 
         match .ico$ 3y 
         match .png$ 3y 
     }
