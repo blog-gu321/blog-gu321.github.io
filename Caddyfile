@@ -20,12 +20,9 @@ https://blog.gu321.com {
         if {file} not_ends_with .png 
         if {file} not_ends_with .svg
         if {file} not_ends_with .ico 
-        if {file} not_ends_with .txt
-        if {file} not_ends_with .md 
-        if {file} not_ends_with .toml
         if {file} not_ends_with .json
-        if {file} not_ends_with .html 
         if {file} not_ends_with .xml 
+        if {file} not_ends_with .txt
         if {path} not_starts_with /-/S/
         if {path} not_starts_with /-S/
         to /
