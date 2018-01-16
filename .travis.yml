@@ -1,3 +1,8 @@
 before_install:
 - openssl aes-256-cbc -K $encrypted_a66cde050205_key -iv $encrypted_a66cde050205_iv
   -in gu321.enc -out ~\/.ssh/gu321 -d
+- chmod 600 ~/.ssh/gu321
+addons:
+  ssh_known_hosts: blog.gu321.com:22
+script:
+  ssh -i ~/.ssh/gu321 -l root blog.gu321.com "cd /home/u88/blog.gu321.com;git pull"
