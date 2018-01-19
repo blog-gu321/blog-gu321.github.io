@@ -1,4 +1,4 @@
-https://blog.gu321.com {
+https://gu321.com {
     
     tls {
         dns dnspod
@@ -38,11 +38,44 @@ https://blog.gu321.com {
     root /home/u88/blog.gu321.com 
 
 }
-http://blog.gu321.com {
+https://blog.gu321.com {
 
     redir 302 {
-        https://blog.gu321.com{uri}
+        https://gu321.com{uri}
     }
 }
 
 
+http://*.gu321.com {
+    redir https://gu321.com{uri} 
+    
+    tls {
+        dns dnspod
+    }
+    gzip
+    header / -Server
+    header / -Vary
+
+}
+
+:80 {
+    
+    tls {
+        dns dnspod
+    }
+    gzip
+    header / -Server
+    header / -Vary
+
+    redir 302 {
+        http://gu321.com{uri}
+    }
+}
+
+
+
+http://gu321.com https://www.gu321.net https://gu321.net https://www.gu321.com.cn https://gu321.com.cn https://www.gu321.org https://gu321.org https://www.gu321.us https://gu321.us https://www.gu321.me https://gu321.me {
+    redir 302 {
+        https://gu321.com{uri}
+    }
+}
