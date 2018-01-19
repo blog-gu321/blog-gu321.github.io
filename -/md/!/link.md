@@ -2,6 +2,7 @@
 ## 经济
 
 *   [STOCK-AI · 宏观数据](http://t.cn/R049tmM)
+    1. [美国消费者贷款违约率](https://stock-ai.com/eom-1-DRCCLACBS)
 *   [世界银行 · 国力对比](http://t.cn/R04K6CG)
 *   [各国贸易增长预测](http://t.cn/R04CdTw)
 
