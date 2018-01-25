@@ -1,30 +1,34 @@
 # 友情链接
-## 开源项目
+## 经济
 
-*   [八卦博客](https://8gua.blog)
-
----
-
-## 设计欣赏
-
-*   [CODROPS](https://tympanus.net/codrops/) : CSS3 炫技
-*   [DRIBBBLE](HTTPS://DRIBBBLE.COM) : 灵感之源
-*   [ONE PAGE LOVE](HTTPS://ONEPAGELOVE.COM) : 单页面网站欣赏
-*   [UI.CN](http://www.ui.cn/) : 中国设计社区
+*   [世界银行 · 国力对比](http://t.cn/R04K6CG)
+*   [自然指数](https://www.natureindex.com/country-outputs/generate/All/global/All/weighted_score)
+*   [各国贸易增长预测](http://t.cn/R04CdTw)
+*   [STOCK-AI · 宏观数据](http://t.cn/R049tmM)
+*   [美国消费者贷款违约率](https://stock-ai.com/eom-1-DRCCLACBS)
 
 ---
 
-## 开发工具
+## 投资
 
-*   [iconfont.cn](http://iconfont.cn) : 图标字体
-*   [tabletag.net](http://tabletag.net) : HTML表格生成器
-*   [realfavicongenerator.net](https://realfavicongenerator.net) : 站点小图标生成器
+*   [谷歌财经 · 选股](http://t.cn/R04KNiq)
 
 ---
 
-## 程序社区
+## 美股
 
-*   [juejin.im](http://juejin.im) : 掘金
-*   [oschina.net](http://oschina.net) : 开源中国
-*   [csdn.net](http://csdn.net)
-*   [infoq.com](http://www.infoq.com/cn/)
+*   [巴菲特指数](http://t.cn/R04Kg1E)
+*   [席勒PE](http://t.cn/zYKe3FQ)
+
+---
+
+## 港股
+
+*   [空单持仓](http://t.cn/R049HuD)
+
+---
+
+## A股
+
+*   [比尔盖茨基金持仓](http://t.cn/R049ONI)
+*   [融资融券余额](http://t.cn/alL9v2)
