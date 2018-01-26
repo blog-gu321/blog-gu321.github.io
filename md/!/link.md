@@ -40,3 +40,12 @@
 
 *   [比尔盖茨基金持仓](http://t.cn/R049ONI)
 *   [融资融券余额](http://t.cn/alL9v2)
+
+---
+
+## 课程
+
+*   期权 [动画片](http://edu.sse.com.cn/col/option/optionABC/#menu-list)  
+    
+*   [耶鲁大学 \- 金融市场](http://open.163.com/special/financialmarkets/)
+*   [桥水资本 : 30分钟读懂经济机器是如何运行的](http://t.cn/R8vdLdE)
