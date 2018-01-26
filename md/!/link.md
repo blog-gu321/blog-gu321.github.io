@@ -18,7 +18,7 @@
 ## 博客
 
 *   [桥水资本 / 雷 · 达里奥](https://www.linkedin.com/today/author/raydalio?trk=pprof-feed)
-*   [橡树资本 / 霍华德 · 马克思](https://www.oaktreecapital.com/insights/howard-marks-memos)
+*   [橡树资本 / 霍华德 · 马克思](https://www.oaktreecapital.com/insights/howard-marks-memos)
 
 ---
 
@@ -26,6 +26,7 @@
 
 *   [巴菲特指数](http://t.cn/R04Kg1E)
 *   [席勒PE](http://t.cn/zYKe3FQ)
+*   [VIX指数](https://cn.tradingview.com/chart/?symbol=TVC:VIX)
 
 ---
 
