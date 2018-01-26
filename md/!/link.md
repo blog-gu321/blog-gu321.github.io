@@ -45,7 +45,8 @@
 
 ## 课程
 
-*   期权 [动画片](http://edu.sse.com.cn/col/option/optionABC/#menu-list)  
+*   [期权ABC](http://edu.sse.com.cn/col/option/optionABC/#menu-list)    
     
 *   [耶鲁大学 \- 金融市场](http://open.163.com/special/financialmarkets/)
+    
 *   [桥水资本 : 30分钟读懂经济机器是如何运行的](http://t.cn/R8vdLdE)
