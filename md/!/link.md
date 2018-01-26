@@ -15,6 +15,13 @@
 
 ---
 
+## 博客
+
+*   [桥水资本 / 雷 · 达里奥](https://www.linkedin.com/today/author/raydalio?trk=pprof-feed)
+*   [橡树资本 / 霍华德 · 马克思](https://www.oaktreecapital.com/insights/howard-marks-memos)
+
+---
+
 ## 美股
 
 *   [巴菲特指数](http://t.cn/R04Kg1E)
