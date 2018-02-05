@@ -5,12 +5,12 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-02-05T05:02:10Z</updated>
+<updated>2018-02-05T05:08:02Z</updated>
 <entry><id>-/think/2018-02-05</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/think/2018-02-05.htm" />
 <title>复星国际『有叻』优化建议</title>
-<published>2018-02-05T05:02:10Z</published>
-<updated>2018-02-05T05:02:10Z</updated>
+<published>2018-02-05T05:08:02Z</published>
+<updated>2018-02-05T05:08:02Z</updated>
 <content type="html" xml:base="https://gu321.com"><![CDATA[<h1>复星国际『有叻』优化建议</h1><p>接前文<a href="/-/think/2018-02-02">《复星国际『有叻』初体验》</a>。</p>
 <p>我又思考，如果要做好『有叻』，首先需要做什么。</p>
 <p>想到了几点，做个笔记。</p>
@@ -24,9 +24,9 @@
 </ul>
 <h2 id="-">用户社区</h2>
 <p>什么是用户社区？就是一个用户可以彼此交流，吐槽的地方。</p>
-<p>现在有很多现成开源的社区系统（个人推荐 <a href="http://flarum.org.cn/">flarum</a> ），一个程序员花几个小时就能部署好。</p>
 <p>有了用户社区，就能更好地去收集用户的体验反馈和吐槽，而这些，是改进产品的基石。</p>
-<h2 id="-">官方博客</h2>
+<p>有很多现成开源的社区系统（个人推荐 <a href="http://flarum.org.cn/">flarum</a> ），一个程序员花几个小时就能部署好。</p>
+<p>官方博客  </p>
 <p>官方博客让用户感知产品的更新变化。在这一点上，<a href="https://china.googleblog.com/">『谷歌黑板报』</a>是典范。</p>
 <p>将社区最常见的吐槽，收集整理改进之后，然后通过官方博客，以每周一篇频率让用户看到事情的进展。这能与用户建立更好的亲密关系。</p>
 <p>至于博客的搭建，可以考虑下我用的这个博客系统（<a href="https://8gua.blog/">『八卦博客』</a>）。</p>
