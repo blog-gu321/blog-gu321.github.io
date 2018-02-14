@@ -12,6 +12,7 @@
 ## 投资
 
 *   [谷歌财经 · 选股](http://t.cn/R04KNiq)
+*   [乌龟投资](https://androidinvest.com/)
 
 ---
 
@@ -43,13 +44,17 @@
 
 ---
 
+## 书单
+
+---
+
 ## 课程
 
-*   [期权ABC](http://edu.sse.com.cn/col/option/optionABC/#menu-list)
-    
 *   [耶鲁大学 : 金融市场](http://open.163.com/special/financialmarkets/)
     
 *   [桥水资本 : 30分钟读懂经济机器是如何运行的](http://t.cn/R8vdLdE)
+    
+*   [期权ABC](http://edu.sse.com.cn/col/option/optionABC/#menu-list)
     
 
 ---
