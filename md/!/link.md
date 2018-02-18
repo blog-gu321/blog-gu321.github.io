@@ -7,8 +7,7 @@
 *   [STOCK-AI · 宏观数据](http://t.cn/R049tmM)
 *   [美国消费者贷款违约率](https://stock-ai.com/eom-1-DRCCLACBS)
 *   [美国历史通胀数据下载](https://fred.stlouisfed.org/series/CPIAUCSL)
-*   [各国电影票房](https://www.the-numbers.com/movies/production-countries/#tab=year)  
-    
+*   [各国电影年票房占比](https://www.the-numbers.com/movies/production-countries/#tab=year)
 
 ---
 
