@@ -6,6 +6,7 @@
 *   [各国贸易增长预测](http://t.cn/R04CdTw)
 *   [STOCK-AI · 宏观数据](http://t.cn/R049tmM)
 *   [美国消费者贷款违约率](https://stock-ai.com/eom-1-DRCCLACBS)
+*   [美国历史通胀数据下载](https://fred.stlouisfed.org/series/CPIAUCSL)
 
 ---
 
