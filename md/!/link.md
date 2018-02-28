@@ -23,8 +23,7 @@
 
 *   [桥水资本 / 雷 · 达里奥](https://www.linkedin.com/today/author/raydalio?trk=pprof-feed)
 *   [橡树资本 / 霍华德 · 马克思](https://www.oaktreecapital.com/insights/howard-marks-memos)
-*   [zero hedge](https://www.zerohedge.com/)  
-    
+*   [zero hedge](https://www.zerohedge.com/)
 
 ---
 
@@ -46,10 +45,6 @@
 
 *   [比尔盖茨基金持仓](http://t.cn/R049ONI)
 *   [融资融券余额](http://t.cn/alL9v2)
-
----
-
-## 书单
 
 ---
 
