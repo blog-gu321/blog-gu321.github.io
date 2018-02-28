@@ -14,8 +14,11 @@
 
 ## 投资
 
+北京共有产权摇号
+
 *   [谷歌财经 · 选股](http://t.cn/R04KNiq)
 *   [乌龟投资](https://androidinvest.com/)
+*   [北京共有产权摇号](http://www.bjjs.gov.cn/bjjs/xxgk/ztzl/gycqzf/tzgg80/index.shtml)
 
 ---
 
