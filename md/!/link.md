@@ -66,3 +66,4 @@
 
 *   [巴菲特 : 格雷厄姆-多德都市的超级投资者们](http://blog.sina.com.cn/s/blog_4462623d0100mqsd.html)
 *   [巴菲特 : 牛市的3个前提](http://www.360doc.com/content/16/0824/12/11943466_585554988.shtml)
+*   [郎咸平上海财经大学演讲实录](http://t.cn/RE6dEit)
