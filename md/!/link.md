@@ -2,7 +2,9 @@
 ## 经济
 
 *   [世界银行 · 国力对比](http://t.cn/R04K6CG)
-*   [自然指数](https://www.natureindex.com/country-outputs/generate/All/global/All/weighted_score)
+*   [中国的数据](http://cn.knoema.com/atlas/%E4%B8%AD%E5%9B%BD)
+*   [自然指数](https://www.natureindex.com/country-outputs/generate/All/global/All/weighted_score)  
+    
 *   [各国贸易增长预测](http://t.cn/R04CdTw)
 *   [STOCK-AI · 宏观数据](http://t.cn/R049tmM)
 *   [美国消费者贷款违约率](https://stock-ai.com/eom-1-DRCCLACBS)
