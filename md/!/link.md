@@ -12,6 +12,7 @@
 *   [美国消费者贷款违约率](https://stock-ai.com/eom-1-DRCCLACBS)
     
 *   [美国历史通胀数据下载](https://fred.stlouisfed.org/series/CPIAUCSL)
+    
 *   [美国实际家庭收入通胀调整后的中位数](https://fred.stlouisfed.org/series/MEFAINUSA672N)
 *   [各国电影年票房占比](https://www.the-numbers.com/movies/production-countries/#tab=year)
 
@@ -74,3 +75,9 @@
 *   [巴菲特 : 牛市的3个前提](http://www.360doc.com/content/16/0824/12/11943466_585554988.shtml)
 *   [郎咸平上海财经大学演讲实录](http://t.cn/RE6dEit)
 *   [桥水 : 原则](http://www.yibencezi.com/notes/27434)
+
+---
+
+##  工具
+
+*   [youtube字幕下载](https://zhuwei.me/y2b/) [youtube视频下载](https://y2mate.com/zh-cn/)
