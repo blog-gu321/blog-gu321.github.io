@@ -14,17 +14,16 @@
 *   [美国历史通胀数据下载](https://fred.stlouisfed.org/series/CPIAUCSL)
     
 *   [美国实际家庭收入通胀调整后的中位数](https://fred.stlouisfed.org/series/MEFAINUSA672N)
+    
 *   [各国电影年票房占比](https://www.the-numbers.com/movies/production-countries/#tab=year)
 
 ---
 
 ## 投资
 
-北京共有产权摇号
-
 *   [谷歌财经 · 选股](http://t.cn/R04KNiq)
 *   [乌龟投资](https://androidinvest.com/)
-*   [北京共有产权摇号](http://www.bjjs.gov.cn/bjjs/xxgk/ztzl/gycqzf/tzgg80/index.shtml)
+*   [北京共有产权摇号](http://zzfws.bjjs.gov.cn/enroll/home.jsp)
 *   [股票医生](https://www.icaifu.com/stock/hkindex.shtml)
 
 ---
@@ -78,6 +77,6 @@
 
 ---
 
-##  工具
+## 工具
 
-*   [youtube字幕下载](https://zhuwei.me/y2b/) [youtube视频下载](https://y2mate.com/zh-cn/)
+*   [youtube字幕下载](https://zhuwei.me/y2b/) [youtube视频下载](https://y2mate.com/zh-cn/)
