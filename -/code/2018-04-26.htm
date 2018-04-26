@@ -3,14 +3,16 @@
 <p>参考<a href="http://t.cn/RuIfysN">用户手册</a> ， 安装 <a href="https://www.armbian.com/">Armbian</a>，然后把TF卡上的系统刷到系统自带的16G闪存（手册中有教程）。</p>
 <p>然后运行 armbian-config ，配置wifi、语言、时间等等。</p>
 <p>有了wifi，就可以不用网线了。</p>
-<p>安装好系统，我拔出TF卡，然后格式化后再插入，重启，进入到板载内存的系统。</p>
-<p>然后升级系统。</p>
-<pre><code> apt upgrade
-</code></pre><p>路由器绑定香橙派无线网卡的IP，然后在我的苹果笔记本上配置~/.ssh/config方便登录</p>
+<p>路由器绑定香橙派无线网卡的IP，然后在我的苹果笔记本上配置~/.ssh/config方便登录</p>
 <pre><code>Host pi  
 User root  
 HostName 192.168.199.204  
 IdentityFile /Users/zhangchenpeng/.ssh/id_rsa6  
 IdentitiesOnly yes
-</code></pre><p>然后 ssh-copy-id pi</p>
-</div></div></div></body></html>
+</code></pre><p>然后 ssh-copy-id pi 。</p>
+<p>安装好系统，我拔出TF卡，然后格式化后再插入，断电重启，进入到板载内存的系统。</p>
+<p>然后升级系统，安装常用工具。</p>
+<pre><code> apt upgrade ; sudo apt-get install -y vim tmux
+</code></pre><p><code>为了使用方便，编辑 /etc/sudoer ，添加如下内容</code></p>
+<pre><code>dev ALL=(ALL) NOPASSWD: ALL
+</code></pre></div></div></div></body></html>
