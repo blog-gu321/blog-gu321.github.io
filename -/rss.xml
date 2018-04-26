@@ -5,12 +5,12 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-04-26T05:52:25Z</updated>
+<updated>2018-04-26T05:54:21Z</updated>
 <entry><id>-/code/2018-04-26</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-04-26.htm" />
 <title>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</title>
-<published>2018-04-26T05:52:25Z</published>
-<updated>2018-04-26T05:52:25Z</updated>
+<published>2018-04-26T05:54:21Z</published>
+<updated>2018-04-26T05:54:21Z</updated>
 <content type="html" xml:base="https://gu321.com"><![CDATA[<h1>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</h1><p>淘宝采购 <a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.c8492e8deDDBHq&amp;id=531880721728&amp;_u=q2ep33mp72e8">Orange Pi Plus 2E arm开发板</a> 、电源、外壳，<a href="http://t.cn/RuIfWJI">32GTF闪存</a> 。</p>
 <p>没USB键盘，直接用网线连接路由器，然后ssh登陆，默认root密码1234。</p>
 <p>参考<a href="http://t.cn/RuIfysN">用户手册</a> ， 安装 <a href="https://www.armbian.com/">Armbian</a>，然后把TF卡上的系统刷到系统自带的16G闪存（手册中有教程）。</p>
@@ -25,14 +25,14 @@ IdentitiesOnly yes
 </code></pre><p>然后 ssh-copy-id pi 。</p>
 <p>安装好系统，我拔出TF卡，然后格式化后再插入，断电重启，进入到板载内存的系统。</p>
 <p>然后升级系统，安装常用工具。</p>
-<pre><code>apt upgrade ; sudo apt-get install -y vim tmux python3-pip
+<pre><code>apt upgrade ; sudo apt-get install -y vim tmux python3-pip silversearcher-ag
 </code></pre><p>为了使用方便，编辑 /etc/sudoer ，添加如下内容</p>
 <pre><code>dev ALL=(ALL) NOPASSWD: ALL
 </code></pre><p>参考 <a href="http://t.cn/RuIxOp5">debian - How to install Python 3.6?</a> ，安装 python3.6 。</p>
 <p>参考 <a href="http://t.cn/RuIiTRt">Debian下分区并自动挂载TF卡</a> ，格式TF为ext4并挂载TF卡。</p>
 <p>参考 <a href="http://t.cn/RuIXKZ8">Command to change the default home directory of a user</a> ，把开发用户dev的home目录调整到TF卡上。</p>
 <p>在开发用户目录</p>
-<p>sudo pip3 install virtualenv </p>
+<p>sudo pip3 install virtualenv</p>
 <p>sudo apt-get install -y</p>
 ]]></content>
 </entry><entry><id>-/think/2018-04-09</id>
