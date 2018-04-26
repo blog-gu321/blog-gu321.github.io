@@ -5,12 +5,12 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-04-26T05:26:06Z</updated>
+<updated>2018-04-26T05:32:24Z</updated>
 <entry><id>-/code/2018-04-26</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-04-26.htm" />
 <title>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</title>
-<published>2018-04-26T05:26:06Z</published>
-<updated>2018-04-26T05:26:06Z</updated>
+<published>2018-04-26T05:32:24Z</published>
+<updated>2018-04-26T05:32:24Z</updated>
 <content type="html" xml:base="https://gu321.com"><![CDATA[<h1>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</h1><p>淘宝采购 <a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.c8492e8deDDBHq&amp;id=531880721728&amp;_u=q2ep33mp72e8">Orange Pi Plus 2E arm开发板</a> ，<a href="http://t.cn/RuIfWJI">32GTF闪存</a> 。</p>
 <p>没USB键盘，直接用网线连接路由器，然后ssh登陆，默认root密码1234。</p>
 <p>参考<a href="http://t.cn/RuIfysN">用户手册</a> ， 安装 <a href="https://www.armbian.com/">Armbian</a>，然后把TF卡上的系统刷到系统自带的16G闪存（手册中有教程）。</p>
@@ -29,7 +29,7 @@ IdentitiesOnly yes
 </code></pre><p>为了使用方便，编辑 /etc/sudoer ，添加如下内容</p>
 <pre><code>dev ALL=(ALL) NOPASSWD: ALL
 </code></pre><p>参考 <a href="http://t.cn/RuIxOp5">debian - How to install Python 3.6?</a> ，安装 python3.6 。</p>
-<p>参考 <a href="http://t.cn/RuIiTRt">Debian下分区并自动挂载TF卡 </a> ，挂载TF卡。</p>
+<p>参考 <a href="http://t.cn/RuIiTRt">Debian下分区并自动挂载TF卡</a> ，格式TF为ext4并挂载TF卡。</p>
 ]]></content>
 </entry><entry><id>-/think/2018-04-09</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/think/2018-04-09.htm" />
