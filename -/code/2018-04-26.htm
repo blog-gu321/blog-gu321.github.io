@@ -1,1 +1,20 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><title>2018-04-26</title><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name=viewport><link href=/-/rss.xml rel=alternate type=application/atom+xml><link href=/-/code/2018-04-26 rel=canonical><link href=/-S/4516d7c0580be88d11b6.css rel=stylesheet></head><body><noscript><div class=TC><a href=/-/sitemap.htm>索引</a></div></noscript><script src=/-S/init7eb1f429.js></script><script src=/-S/4516d7c0.js></script><div class="Pbox"><div class="C macS"><div class="TXT"><h1>2018-04-26</h1></div></div></div></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><title>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</title><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name=viewport><link href=/-/rss.xml rel=alternate type=application/atom+xml><link href=/-/code/2018-04-26 rel=canonical><link href=/-S/4516d7c0580be88d11b6.css rel=stylesheet></head><body><noscript><div class=TC><a href=/-/sitemap.htm>索引</a></div></noscript><script src=/-S/init7eb1f429.js></script><script src=/-S/4516d7c0.js></script><div class="Pbox"><div class="C macS"><div class="TXT"><h1>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</h1><p>淘宝采购 <a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.c8492e8deDDBHq&amp;id=531880721728&amp;_u=q2ep33mp72e8">Orange Pi Plus 2E arm开发板</a> ，<a href="http://t.cn/RuIfWJI">32GTF闪存</a> 。</p>
+<p>没USB键盘，直接用网线连接路由器，然后ssh登陆，默认root密码1234。</p>
+<p>参考<a href="http://t.cn/RuIfysN">用户手册</a> ， 安装 <a href="https://www.armbian.com/">Armbian</a>，然后把TF卡上的系统刷到系统自带的16G闪存（手册中有教程）。</p>
+<p>然后运行 armbian-config ，配置wifi、语言、时间等等。</p>
+<p>有了wifi，就可以不用网线了。</p>
+<p>路由器绑定香橙派无线网卡的IP，然后在我的苹果笔记本上配置~/.ssh/config方便登录</p>
+<pre><code>Host pi  
+User root  
+HostName 192.168.199.204  
+IdentityFile /Users/zhangchenpeng/.ssh/id_rsa6  
+IdentitiesOnly yes
+</code></pre><p>然后 ssh-copy-id pi 。</p>
+<p>安装好系统，我拔出TF卡，然后格式化后再插入，断电重启，进入到板载内存的系统。</p>
+<p>然后升级系统，安装常用工具。</p>
+<pre><code>apt upgrade ; sudo apt-get install -y vim tmux
+</code></pre><p>为了使用方便，编辑 /etc/sudoer ，添加如下内容</p>
+<pre><code>dev ALL=(ALL) NOPASSWD: ALL
+</code></pre><p>参考 <a href="http://t.cn/RuIxOp5">debian - How to install Python 3.6?</a> ，安装 python3.6 。</p>
+<p>参考 <a href="http://t.cn/RuIiTRt">Debian下分区并自动挂载TF卡 </a> ，挂载TF卡。</p>
+</div></div></div></body></html>
