@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><title>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</title><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name=viewport><link href=/-/rss.xml rel=alternate type=application/atom+xml><link href=/-/code/2018-04-26 rel=canonical><link href=/-S/4516d7c0580be88d11b6.css rel=stylesheet></head><body><noscript><div class=TC><a href=/-/sitemap.htm>索引</a></div></noscript><script src=/-S/init7eb1f429.js></script><script src=/-S/4516d7c0.js></script><div class="Pbox"><div class="C macS"><div class="TXT"><h1>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</h1><p>淘宝采购 <a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.c8492e8deDDBHq&amp;id=531880721728&amp;_u=q2ep33mp72e8">Orange Pi Plus 2E arm开发板</a> ，<a href="http://t.cn/RuIfWJI">32GTF闪存</a> 。</p>
+<!DOCTYPE html><html><head><meta charset=utf-8><title>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</title><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name=viewport><link href=/-/rss.xml rel=alternate type=application/atom+xml><link href=/-/code/2018-04-26 rel=canonical><link href=/-S/4516d7c0580be88d11b6.css rel=stylesheet></head><body><noscript><div class=TC><a href=/-/sitemap.htm>索引</a></div></noscript><script src=/-S/init7eb1f429.js></script><script src=/-S/4516d7c0.js></script><div class="Pbox"><div class="C macS"><div class="TXT"><h1>香橙派 Orange Pi Plus 2E arm 开发板 配置笔记</h1><p>淘宝采购 <a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.c8492e8deDDBHq&amp;id=531880721728&amp;_u=q2ep33mp72e8">Orange Pi Plus 2E arm开发板</a> 、电源、外壳，<a href="http://t.cn/RuIfWJI">32GTF闪存</a> 。</p>
 <p>没USB键盘，直接用网线连接路由器，然后ssh登陆，默认root密码1234。</p>
 <p>参考<a href="http://t.cn/RuIfysN">用户手册</a> ， 安装 <a href="https://www.armbian.com/">Armbian</a>，然后把TF卡上的系统刷到系统自带的16G闪存（手册中有教程）。</p>
 <p>然后运行 armbian-config ，配置wifi、语言、时间等等。</p>
@@ -18,4 +18,7 @@ IdentitiesOnly yes
 </code></pre><p>参考 <a href="http://t.cn/RuIxOp5">debian - How to install Python 3.6?</a> ，安装 python3.6 。</p>
 <p>参考 <a href="http://t.cn/RuIiTRt">Debian下分区并自动挂载TF卡</a> ，格式TF为ext4并挂载TF卡。</p>
 <p>参考 <a href="http://t.cn/RuIXKZ8">Command to change the default home directory of a user</a> ，把开发用户dev的home目录调整到TF卡上。</p>
+<p>在开发用户目录</p>
+<p>sudo pip3 install virtualenv </p>
+<p>sudo apt-get install -y</p>
 </div></div></div></body></html>
