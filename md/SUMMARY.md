@@ -12,4 +12,5 @@
  * [复星国际『有叻』初体验](think/2018-02-02.md)
  * [论善](think/2018-01-15.md)
 * [程序人生](code)
+ * [jsDelivr - 支持中国大陆的CDN](code/2018-05-02.md)
  * [香橙派 Orange Pi Plus 2E arm 开发板 配置笔记](code/2018-04-26.md)
