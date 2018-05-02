@@ -5,20 +5,20 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-05-02T15:28:06Z</updated>
+<updated>2018-05-02T15:28:30Z</updated>
 <entry><id>-/code/2018-05-02</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-05-02.htm" />
 <title>jsDelivr - 支持中国大陆的CDN</title>
-<published>2018-05-02T15:28:06Z</published>
-<updated>2018-05-02T15:28:06Z</updated>
+<published>2018-05-02T15:28:30Z</published>
+<updated>2018-05-02T15:28:30Z</updated>
 <content type="html" xml:base="https://gu321.com"><![CDATA[<h1>jsDelivr - 支持中国大陆的CDN</h1><p>参见 <a href="https://www.zhihu.com/question/20227463">国内有哪些靠谱的 Javascript 库 CDN可用？</a></p>
 <p>对中国有加速，npm 发包就可以用，完全免费无限制，全球都很快。</p>
 <p>另外，支持<a href="https://www.jsdelivr.com/features">合并文件</a>。</p>
 <pre><code>[https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3/dist/jquery.min.js,gh/twbs/bootstrap@3.3/dist/js/bootstrap.min.js](https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3.3.1/dist/jquery.min.js,gh/twbs/bootstrap@3.3/dist/js/bootstrap.min.js)
-</code></pre><p>版本号支持大版本，比如jquery3就可以代表jquery3的最新版，如 <a href="https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3/dist/jquery.min.js">jquery@3.3.1</a>  。</p>
+</code></pre><p>版本号支持大版本，比如jquery3就可以代表jquery3的最新版，如 <a href="https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3/dist/jquery.min.js">jquery@3.3.1</a> 。</p>
 <p>我个人建议用npm的源，因为npm不需要用户名，路径要短一点儿。</p>
 <p>比如</p>
-<pre><code>&lt;script src=[//cdn.jsdelivr.net/combine/npm/jquery@3/dist/jquery.min.js](http://cdn.jsdelivr.net/combine/npm/jquery@3/dist/jquery.min.js)&gt;&lt;/script&gt;
+<pre><code>&lt;script src=//cdn.jsdelivr.net/combine/npm/jquery@3/dist/jquery.min.js&gt;&lt;/script&gt;
 </code></pre>]]></content>
 </entry><entry><id>-/code/2018-04-26</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-04-26.htm" />
