@@ -5,8 +5,16 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-05-02T15:29:18Z</updated>
-<entry><id>-/code/2018-05-02</id>
+<updated>2018-06-15T04:17:10Z</updated>
+<entry><id>-/code/2018-06-15</id>
+<link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-06-15.htm" />
+<title>gotty 映射命令行到网页</title>
+<published>2018-06-15T04:17:10Z</published>
+<updated>2018-06-15T04:17:10Z</updated>
+<content type="html" xml:base="https://gu321.com"><![CDATA[<h1>gotty 映射命令行到网页</h1><p>GoTTY 是一个简单的基于 Go 语言的命令行工具，它可以将你的终端（TTY）作为 web 程序共享。</p>
+<p><a href="https://github.com/yudai/gotty">https://github.com/yudai/gotty</a></p>
+]]></content>
+</entry><entry><id>-/code/2018-05-02</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-05-02.htm" />
 <title>jsDelivr - 支持中国大陆的CDN</title>
 <published>2018-05-02T15:29:18Z</published>
