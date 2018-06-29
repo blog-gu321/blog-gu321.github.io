@@ -15,3 +15,5 @@
  * [gotty 映射命令行到网页](code/2018-06-15.md)
  * [jsDelivr - 支持中国大陆的CDN](code/2018-05-02.md)
  * [香橙派 Orange Pi Plus 2E arm 开发板 配置笔记](code/2018-04-26.md)
+* [投资小结](fund)
+ * [2018-06-30 投资半年报](fund/2018-06-29.md)
