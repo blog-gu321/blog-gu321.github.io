@@ -17,6 +17,8 @@
     
 *   [各国电影年票房占比](https://www.the-numbers.com/movies/production-countries/#tab=year)
     
+*   [中国外债-GDP比例](https://www.ceicdata.com/zh-hans/indicator/china/external-debt--of-nominal-gdp)
+    
 
 ---
 
