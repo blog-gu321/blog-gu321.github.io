@@ -25,6 +25,7 @@
 ## 投资
 
 *   [谷歌财经 · 选股](http://t.cn/R04KNiq)
+*   [港股选股器](http://t.cn/RkoVbal)
 *   [乌龟投资](https://androidinvest.com/)
 *   [北京共有产权摇号](http://zzfws.bjjs.gov.cn/enroll/home.jsp)
 *   [股票医生](https://www.icaifu.com/stock/hkindex.shtml)
