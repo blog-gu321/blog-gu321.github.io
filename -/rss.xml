@@ -5,18 +5,95 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-09-14T07:49:03Z</updated>
+<updated>2018-09-14T07:50:58Z</updated>
 <entry><id>-/code/2018-09-14.1</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-14.1.htm" />
 <title>mitmproxy 抓包代理 ，支持 https 中间人</title>
-<published>2018-09-14T07:49:03Z</published>
-<updated>2018-09-14T07:49:03Z</updated>
+<published>2018-09-14T07:50:58Z</published>
+<updated>2018-09-14T07:50:58Z</updated>
 <content type="html" xml:base="https://gu321.com"><![CDATA[<h1>mitmproxy 抓包代理 ，支持 https 中间人</h1><p>安装</p>
 <pre><code>pip install mitmproxy
 </code></pre><p>使用，为了支持远程的请求，需要加参数如下</p>
 <pre><code>mitmproxy --set block_global=false
 </code></pre><p>支持https</p>
 <p>手机端chrome访问mitm.it，安装证书</p>
+<p><strong>mitmproxy的操作说明  
+</strong></p>
+<table>
+<thead>
+<tr>
+<th>按键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>q</td>
+<td>退出（相当于返回键，可一级一级返回）</td>
+</tr>
+<tr>
+<td>d</td>
+<td>删除当前（黄色箭头）指向的链接</td>
+</tr>
+<tr>
+<td>D</td>
+<td>恢复刚才删除的请求</td>
+</tr>
+<tr>
+<td>G</td>
+<td>跳到最新一个请求</td>
+</tr>
+<tr>
+<td>g</td>
+<td>跳到第一个请求</td>
+</tr>
+<tr>
+<td>C</td>
+<td>清空控制台（C是大写）</td>
+</tr>
+<tr>
+<td>i</td>
+<td>可输入需要拦截的文件或者域名（逗号需要用\来做转译，栗子：feezu.cn）</td>
+</tr>
+<tr>
+<td>a</td>
+<td>放行请求</td>
+</tr>
+<tr>
+<td>A</td>
+<td>放行所有请求</td>
+</tr>
+<tr>
+<td>?</td>
+<td>查看界面帮助信息</td>
+</tr>
+<tr>
+<td>^ v</td>
+<td>上下箭头移动光标</td>
+</tr>
+<tr>
+<td>enter</td>
+<td>查看光标所在列的内容</td>
+</tr>
+<tr>
+<td>tab</td>
+<td>分别查看 Request 和 Response 的详细信息</td>
+</tr>
+<tr>
+<td>/</td>
+<td>搜索body里的内容</td>
+</tr>
+<tr>
+<td>esc</td>
+<td>退出编辑</td>
+</tr>
+<tr>
+<td>e</td>
+<td>进入编辑模式</td>
+</tr>
+</tbody>
+</table>
+<p>作者：healthbird<br>链接：<a href="https://www.jianshu.com/p/0cc558a8d6a2">https://www.jianshu.com/p/0cc558a8d6a2</a><br>來源：简书<br>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p>
 ]]></content>
 </entry><entry><id>-/code/2018-09-14</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-14.htm" />
@@ -924,99 +1001,5 @@ IdentitiesOnly yes
 <p>从这一点出发，能让用户录入个人信息（职业经历、家庭成员、旅游计划、兴趣爱好）的产品设计就显得尤为重要。</p>
 <p>并在运营层面，通过给予优惠、积分等等方式，引导用户完善自己的个人画像。</p>
 <p>我想，这是开展整合营销的数据基础。</p>
-]]></content>
-</entry><entry><id>-/think/2018-02-02</id>
-<link rel="alternate" type="text/html" href="https://gu321.com/-/think/2018-02-02.htm" />
-<title>复星国际『有叻』初体验</title>
-<published>2018-02-03T15:52:04Z</published>
-<updated>2018-02-03T15:52:04Z</updated>
-<content type="html" xml:base="https://gu321.com"><![CDATA[<h1>复星国际『有叻』初体验</h1><h2 id="-">引子</h2>
-<p>作为持有复星国际万分之2.356权益的小股民，30%资产都押注复星国际的小散户，一直关心着复星国际的方方面面。</p>
-<p>复星国际想打通各个产品会员的体系，战略很对。</p>
-<p>但再好的战略，也得依靠好的落实才能生效。</p>
-<p>我想这就是郭广昌强调的『产品力』。</p>
-<p>今天，体验了一下『有叻』，客观说，不好用。</p>
-<p>太多可打磨的点，写文章吐槽下（顺便测试下我刚刚开发的博客系统）。</p>
-<hr>
-<h2 id="-">产品方法论</h2>
-<p>QQ从抄袭的ICQ起步，美团从复制GroupOn开始，复星国际借鉴巴菲特、高盛、GE、3G资本。</p>
-<p><u>达者为师。模仿胜利者，是成功的捷径。</u></p>
-<p>做产品，第一步就是去欣赏优秀的同行，学习他们的优点。</p>
-<p>作为会员体系，我觉得京东产品就做的非常优秀。</p>
-<p>所以，先欣赏一下京东的会员体系。</p>
-<p>然后，再来对比复星国际『有叻』，思考问题所在。</p>
-<hr>
-<h2 id="-">开始吐槽</h2>
-<p>这是京东会员的首页</p>
-<p><img src="/-/S/jpg/0T78eEwIjLK4No8W_3CxLyDkDpdbIZoa0qkeNA.jpg" alt="24931517588175.jpg"></p>
-<p>仔细观察京东页面，你会发现有以下几个要素，思路清晰，条理明确。</p>
-<ol>
-<li><p>我的积分</p>
-</li>
-<li><p>『去提升』（应如何提高我的积分）</p>
-<p>点击『去提升』之后的页面（下图）。<strong>很明确的告诉了用户，应该做什么来获取积分。</strong></p>
-</li>
-<li><p>我当前的等级，还差多少积分能升级（『差1853京享值』）</p>
-</li>
-<li><p>我已经点亮的特权，我还未点亮的特权</p>
-</li>
-</ol>
-<p><img src="/-/S/jpg/HDi7kntjYYWaswOl_F5QwShkAs-q8TioNHKUqQ.jpg" alt="24951517588225_.jpg"></p>
-<p>再来看看『有叻』的首页的第一屏。</p>
-<p><img src="/-/S/jpg/KevYLm2otfiizmt6OxAZ5C-jQ6UB_rUSOMTo0g.jpg" alt="9761517590075_.jpg"></p>
-<p>『有叻』现在这个首屏，感觉很凌乱，第一印象就不好了。</p>
-<p>我认为有以下几个问题</p>
-<ol>
-<li><p>还在使用拟物化设计，给人感觉特别老土，现在绝大部分流行应用都是扁平化风格的设计。</p>
-<p>有这么一个说法，我比较赞同。</p>
-<blockquote>
-<p>现代社会信息的接触量越来越大，而人的大脑在确定时间内接受的信息量是十分有限的。<br>如何让有限的信息得到最大化利用，这是最重要的一点。<br>当我们面对各种各样拟物化的东西时，其实信息的接收速度是非常慢的。<br>扁平化之后，可以通过色调、对比度，或者其中的某一样东西，来减轻人们的压力，能够很快知道是什么样的信息。</p>
-<p>社会发展导致信息爆炸，用户希望能够得到更简单的信息，更快地接收、理解和处理信息。</p>
-</blockquote>
-</li>
-<li><p>我是银卡会员，这里写的SLIVER，要反应半天才明白是代表我的等级，更何况很多人英语不好</p>
-</li>
-<li><p>既然有了银卡会员，那个当前等级V1又是什么意思？<br>上面的福利都是以银卡、金卡区分的；有两种会员体系，让人很困扰。</p>
-</li>
-<li><p>我的积分是0，我应该做什么呢提升积分呢？不知道，没有任务给我。</p>
-<pre><code>用户需要明确的任务，需要一步一步的引导，应该做什么，应该如何来升级。
-</code></pre></li>
-<li><p>会员福利，展示优先级应该低于我当前的等级，而且横向滚动很不友好，不能一目了然（要用户不必要的操作）。</p>
-<p>首页是最重要的页面，决定了用户接下来的所有行为。</p>
-<p>首页最重要的又是第一屏。</p>
-<p>用户正常的阅读顺序是自上而下的，第一屏，就是用户的第一印象。</p>
-<p>第一印象有多重要，无需多说。</p>
-<p>所以，<strong>信息流的顺序不是小事</strong>。</p>
-<p>用户认知流程是，我当前是什么等级的会员，然后，才是这个等级能享受的优惠。</p>
-<p>认知的顺序不应该倒过来。所以，会员福利，应该展示在会员等级的下方。</p>
-<p>等级积分的下方，可以放几个横条的大促销（限时的优惠），相当于是更新推送。</p>
-<p>但长期性的福利，不应该在首屏展示，也不应该是横向滚动的交互。</p>
-</li>
-<li><p>此外，会员福利应该配上一行短小的文字说明，无需点击也能知道是什么优惠。</p>
-<p>对比下图的京东会员福利说明，具体有什么优惠（机票减去35元、会员店免邮），很清楚。</p>
-<p>而『有叻』需要用户一个一个点开页面才知道（这也操作太累了，滚动、点开、返回、重新滚动、看下一个）。</p>
-<p><img src="/-/S/jpg/lL6oHYIWJfZhspESgf1L7m-dcEPcc91DdaUahA.jpg" alt="9751517588909_.jpg"></p>
-<p>『有叻』的会员权益页面也犯了同样的问题，一定要用户一个一个点击，才能明白具体优惠是什么。</p>
-<p>就不能学京东，把最重要的优惠用几句话概括放在展示页面吗？</p>
-<p><img src="/-/S/jpeg/Kry6R0SviibTVhy8-G5Nqc2z8u7bVgRur_BSxA.jpeg" alt="WechatIMG974.jpeg"></p>
-<p>看看京东</p>
-<p><img src="/-/S/jpg/kA3qcu9TqFc9Gc9JuuYn1nBI9495hzoSzRu8Xw.jpg" alt="9771517591086_.jpg"></p>
-</li>
-<li><p>对于不同的等级，应该明确突出，升级之后新获得的特权，从而刺激用户升级的欲望。</p>
-<p>而不是简单的罗列一模一样的展示页，看着就很困惑。</p>
-</li>
-</ol>
-<hr>
-<p>还有很多细节，我感觉可以优化，比如</p>
-<p>会员权利细节页面字太小，读起来累。</p>
-<p>各产品介绍套话太多，用户没耐心看完。要好好优化下文案，一下子抓住用户。</p>
-<p>应该有病毒式营销的分享激励机制。</p>
-<p>学习京东，有不同侧面的积分展示曲线图，让用户有类似游戏的参与获得升级感。</p>
-<p>设计好的UGC体系，引导用户去分享和吐槽，真实的体验反馈是最宝贵的财富。</p>
-<p>等等。</p>
-<hr>
-<h3 id="-">不早了，先写这么多吧，得睡觉了。</h3>
-<h3 id="-">希望复星国际能组建一个真正有互联网基因的团队。</h3>
-<h3 id="-http-www-woshipm-com-category-pd-">最后，分享一个网站<a href="http://www.woshipm.com/category/pd">『人人都是产品经理』</a>，这里高手如云。</h3>
 ]]></content>
 </entry></feed>
