@@ -5,12 +5,12 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-09-14T07:54:53Z</updated>
+<updated>2018-09-14T07:55:47Z</updated>
 <entry><id>-/code/2018-09-14.1</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-14.1.htm" />
 <title>mitmproxy 抓包代理 ，支持 https 中间人</title>
-<published>2018-09-14T07:54:53Z</published>
-<updated>2018-09-14T07:54:53Z</updated>
+<published>2018-09-14T07:55:47Z</published>
+<updated>2018-09-14T07:55:47Z</updated>
 <content type="html" xml:base="https://gu321.com"><![CDATA[<h1>mitmproxy 抓包代理 ，支持 https 中间人</h1><p>安装</p>
 <pre><code>pip install mitmproxy
 </code></pre><p>使用，为了支持远程的请求，需要加参数如下</p>
@@ -88,10 +88,7 @@
 </tr>
 <tr>
 <td>e</td>
-<td>进入编辑模式  </td>
-</tr>
-<tr>
-<td></td>
+<td>进入编辑模式</td>
 </tr>
 <tr>
 <td>z</td>
