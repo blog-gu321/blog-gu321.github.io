@@ -5,78 +5,17 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-09-14T04:17:26Z</updated>
+<updated>2018-09-14T04:22:18Z</updated>
 <entry><id>-/code/2018-09-14</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-14.htm" />
 <title>自动枚举并更新七牛https证书</title>
-<published>2018-09-14T04:17:26Z</published>
-<updated>2018-09-14T04:17:26Z</updated>
+<published>2018-09-14T04:22:18Z</published>
+<updated>2018-09-14T04:22:18Z</updated>
 <content type="html" xml:base="https://gu321.com"><![CDATA[<h1>自动枚举并更新七牛https证书</h1><p>####</p>
 <p>修改了一下七牛的sdk，提交了一个<a href="https://github.com/qiniu/python-sdk/pull/317">pull request</a>，如果合并了可以直接用官方的</p>
 <pre><code>pip install git+https://github.com/miewx/python-sdk.git
 </code></pre><p>代码如下</p>
-<pre><code>#!/usr/bin/env python3
-
-access_key = &quot;&quot;  
-secret_key = &quot;&quot;
-
-import qiniu
-
-from qiniu import DomainManager
-
-import os
-
-import time
-
-from os.path import join
-
-from datetime import date
-
-
-
-auth = qiniu.Auth(access\_key=access\_key, secret\_key=secret\_key)
-
-domain_manager = DomainManager(auth)
-
-def upload(domain_name, host):
-
-    root = &quot;/root/.acme.sh/%s&quot;%host
-
-    privatekey = join(root, host+&quot;.key&quot;)
-
-    ca =  join(root, &quot;fullchain.cer&quot;)
-
-    with open(privatekey, &#39;r&#39;) as f:
-
-        privatekey_str = f.read()
-
-    with open(ca, &#39;r&#39;) as f:
-
-        ca_str = f.read()
-
-    ret, info = domain\_manager.create\_sslcert(&quot;{}/{}&quot;.format(host,str(date.today())), domain\_name, privatekey\_str, ca_str)
-
-    print(ret\[&#39;certID&#39;\])
-
-    ret, info = domain\_manager.put\_httpsconf(domain_name, ret\[&#39;certID&#39;\], False)
-
-    print(info)
-
-    print(ret)
-
-host = &quot;xvc.com&quot;
-
-for i in domain_manager.domain_iter():
-
-    domain = i[&#39;name&#39;]
-
-    if domain.endswith(&quot;.&quot;+host):
-
-        print(domain)
-
-        upload(domain, host)
-
-        print(&quot;&quot;)
+<pre><code>
 </code></pre>]]></content>
 </entry><entry><id>-/code/2018-08-21</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-08-21.htm" />
