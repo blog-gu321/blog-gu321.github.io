@@ -5,8 +5,20 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-09-14T04:22:18Z</updated>
-<entry><id>-/code/2018-09-14</id>
+<updated>2018-09-14T07:49:03Z</updated>
+<entry><id>-/code/2018-09-14.1</id>
+<link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-14.1.htm" />
+<title>mitmproxy 抓包代理 ，支持 https 中间人</title>
+<published>2018-09-14T07:49:03Z</published>
+<updated>2018-09-14T07:49:03Z</updated>
+<content type="html" xml:base="https://gu321.com"><![CDATA[<h1>mitmproxy 抓包代理 ，支持 https 中间人</h1><p>安装</p>
+<pre><code>pip install mitmproxy
+</code></pre><p>使用，为了支持远程的请求，需要加参数如下</p>
+<pre><code>mitmproxy --set block_global=false
+</code></pre><p>支持https</p>
+<p>手机端chrome访问mitm.it，安装证书</p>
+]]></content>
+</entry><entry><id>-/code/2018-09-14</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-14.htm" />
 <title>自动枚举并更新七牛https证书</title>
 <published>2018-09-14T04:22:18Z</published>
