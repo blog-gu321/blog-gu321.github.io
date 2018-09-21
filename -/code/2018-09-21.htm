@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><title>postgresql 修改枚举</title><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name=viewport><link href=/-/rss.xml rel=alternate type=application/atom+xml><link href=/-/code/2018-09-21 rel=canonical><link href=/-S/94d764346758476fd8f3.css rel=stylesheet></head><body><noscript><div class=TC><a href=/-/sitemap.htm>索引</a></div></noscript><script src=/-S/initaeda9fda.js></script><script src=/-S/94d76434.js></script><div class="Pbox"><div class="C macS"><div class="TXT"><h1>postgresql 修改枚举</h1><p>如果只是增加很简单，类似</p>
+<p>ALTER TYPE user_status ADD VALUE &#39;PROVISIONAL&#39; AFTER &#39;NORMAL&#39;</p>
+<p>如果要删除或修改，比较麻烦，流程如下</p>
+<pre><code>ALTER TYPE currency\_cn RENAME TO currency\_cn_old;  
+CREATE TYPE public.currency_cn AS ENUM (&#39;人民币&#39;,&#39;美元&#39;,&#39;日元&#39;,&#39;欧元&#39;,&#39;港元&#39;,&#39;澳元&#39;);  
+ALTER TABLE vc.com ALTER COLUMN reg\_currency TYPE currency\_cn USING reg\_currency::text::currency\_cn;  
+DROP TYPE currency\_cn\_old;
+</code></pre></div></div></div></body></html>

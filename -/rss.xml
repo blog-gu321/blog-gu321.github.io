@@ -5,8 +5,21 @@
 <id>https://gu321.com</id>
 <link rel="alternate" type="text/html" href="https://gu321.com"/>
 <link rel="self" type="application/atom+xml" href="https://gu321.com/-/rss.xml"/>
-<updated>2018-09-14T08:06:28Z</updated>
-<entry><id>-/code/2018-09-14.1</id>
+<updated>2018-09-21T07:41:10Z</updated>
+<entry><id>-/code/2018-09-21</id>
+<link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-21.htm" />
+<title>postgresql 修改枚举</title>
+<published>2018-09-21T07:41:10Z</published>
+<updated>2018-09-21T07:41:10Z</updated>
+<content type="html" xml:base="https://gu321.com"><![CDATA[<h1>postgresql 修改枚举</h1><p>如果只是增加很简单，类似</p>
+<p>ALTER TYPE user_status ADD VALUE &#39;PROVISIONAL&#39; AFTER &#39;NORMAL&#39;</p>
+<p>如果要删除或修改，比较麻烦，流程如下</p>
+<pre><code>ALTER TYPE currency\_cn RENAME TO currency\_cn_old;  
+CREATE TYPE public.currency_cn AS ENUM (&#39;人民币&#39;,&#39;美元&#39;,&#39;日元&#39;,&#39;欧元&#39;,&#39;港元&#39;,&#39;澳元&#39;);  
+ALTER TABLE vc.com ALTER COLUMN reg\_currency TYPE currency\_cn USING reg\_currency::text::currency\_cn;  
+DROP TYPE currency\_cn\_old;
+</code></pre>]]></content>
+</entry><entry><id>-/code/2018-09-14.1</id>
 <link rel="alternate" type="text/html" href="https://gu321.com/-/code/2018-09-14.1.htm" />
 <title>mitmproxy 抓包代理 ，支持 https 中间人</title>
 <published>2018-09-14T08:06:28Z</published>
