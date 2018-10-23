@@ -17,6 +17,7 @@
  * [复星国际『有叻』初体验](think/2018-02-02.md)
  * [论善](think/2018-01-15.md)
 * [程序人生](code)
+ * [weex 编译安卓程序](code/2018-10-23.md)
  * [postgresql 修改枚举](code/2018-09-21.md)
  * [mitmproxy 抓包代理 ，支持 https 中间人](code/2018-09-14.1.md)
  * [自动枚举并更新七牛https证书](code/2018-09-14.md)
